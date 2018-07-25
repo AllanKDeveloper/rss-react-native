@@ -1,0 +1,127 @@
+.slick-next:before, .slick-prev:before {
+    color: #000 !important;
+    font-family: Arial !important;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-next {
+  margin-top: 40px;
+  z-index: 999;
+  right: 35% !important;
+}
+
+.slick-prev {
+  margin-top: 40px;
+  z-index: 999;
+  left: 60% !important;
+}
+
+h3 .feed-item__name {
+  padding-right: 245px;
+}
+
+.feed-item {
+  text-decoration: none;
+  display: block;
+  padding: 30px 0;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+
+.feed-item__name {
+  line-height: 1.4;
+  font-size: 1.5rem;
+  color: #444;
+  margin: 0;
+  transition: color 0.3s ease-in-out;
+}
+
+.feed-item__desc {
+  line-height: 1.4;
+  font-size: 1rem;
+  color: #999;
+  margin: 0;
+  transition: color 0.3s ease-in-out;
+}
+
+.feed-item:hover .feed-item__name {
+  color: #4673df;
+}
+
+.feed-item__meta {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: #999;
+  margin: 10px 0 0 0;
+  transition: color 0.3s ease-in-out;
+}
+
+.feed-item:hover .feed-item__meta {
+  color: #4673df;
+}
+
+.feed-item:visited {
+    text-decoration: line-through;
+}
+
+@media (max-width: 800px) {
+  .slick-next {
+    margin-top: 40px;
+    z-index: 999;
+    right: 20% !important;
+  }
+
+  .slick-prev {
+    margin-top: 40px;
+    z-index: 999;
+    left: 60% !important;
+  }
+}
+
+@media (min-width: 555px) {
+  .feed-item__name {
+    font-size: 1.17rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .slick-next {
+    margin-top: 100px;
+    right: 10% !important;
+  }
+
+  .slick-prev {
+    margin-top: 100px;
+    left: 70% !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .slick-next {
+    margin-top: 150px;
+    right: 10% !important;
+  }
+
+  .slick-prev {
+    margin-top: 150px;
+    left: 65% !important;
+  }
+}
+
+@media (max-width: 325px) {
+  .slick-next {
+    margin-top: 110px;
+    right: 10% !important;
+  }
+
+  .slick-prev {
+    margin-top: 110px;
+    left: 65% !important;
+  }
+}
